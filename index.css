@@ -1,0 +1,53 @@
+.container {
+  width: 50%;
+  border: 1px solid grey;
+  margin-top: 50px;
+  padding: 15px 20px !important;
+}
+
+h1 {
+  color: #828282;
+}
+
+#username {
+  width: 75%;
+  margin-bottom: 15px;
+  padding: 5px 6px !important;
+}
+
+#profile {
+  display: none;
+  color: #828282;
+}
+
+#avatar {
+  width: 100px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 2px;
+  padding: 5px;
+}
+
+#details {
+  display: flex;
+}
+
+#follow {
+  margin-left: 15px;
+}
+
+a {
+  font-size: 1.5rem;
+}
+
+#repo_btn {
+  border: none;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #de6834;
+  border-radius: 3px;
+  margin: 4px 2px;
+}

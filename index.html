@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="index.css" />
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<body>
+  <div class="container">
+    <h1>API Sample</h1>
+    <form>
+      <input type="text" id="username" placeholder="Github Username..." /><br />
+      <input
+        type="submit"
+        class="btn btn-success"
+        id="send"
+        value="Pull User Data"
+      />
+    </form>
+    <br />
+
+    <div id="profile">
+      <h2 id="name"></h2>
+      <div id="details">
+        <img id="avatar" />
+        <p id="follow"></p>
+      </div>
+      <br />
+      <p style="font-size: 16px">Repos List:</p>
+      <div id="repos_list"></div>
+    </div>
+  </div>
+</body>
+
+<script src="index.js"></script>
